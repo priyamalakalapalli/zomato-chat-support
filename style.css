@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.chatbox {
+    width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.chatlog {
+    height: 300px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.user, .bot {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user {
+    background: #dcf8c6;
+    text-align: right;
+}
+
+.bot {
+    background: #f1f0f0;
+}
+
+input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #eee;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    background: #5cb85c;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4cae4c;
+}
